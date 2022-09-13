@@ -5,12 +5,18 @@ end
 Quando("preencho todos os dados obrigatorios para cadastro") do
     click_button "Registrar"
 
+    user = {
+        :name => Faker::Name.name,
+        :email => Faker::Internet.email,
+        :password => Faker::Internet.password
+    }
+
     signup_div = find('.card__register')
 
-    signup_div.find('input[name="email"]').set 'djalmafrazito@hotmail.com'
-    signup_div.find('input[name="name"]').set 'djalma'
-    signup_div.find('input[name="password"]').set '123'
-    signup_div.find('input[name="passwordConfirmation"]').set '123'
+    signup_div.find('input[name="email"]').set user[:email]
+    signup_div.find('input[name="name"]').set user[:name]
+    signup_div.find('input[name="password"]').set user[:password]
+    signup_div.find('input[name="passwordConfirmation"]').set user[:password]
   
     click_button "Cadastrar"
     

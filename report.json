@@ -24,7 +24,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2256187100
+              "duration": 2267089900
             }
           },
           {
@@ -36,7 +36,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 850279500
+              "duration": 1908950000
             }
           },
           {
@@ -44,11 +44,11 @@
             "name": "cadastro é realizado com sucesso",
             "line": 8,
             "match": {
-              "location": "features/step_definitions/signup_steps.rb:19"
+              "location": "features/step_definitions/signup_steps.rb:25"
             },
             "result": {
               "status": "passed",
-              "duration": 201302700
+              "duration": 232697100
             }
           }
         ],
@@ -59,7 +59,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 37300
+              "duration": 40200
             }
           },
           {
@@ -68,7 +68,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13200
+              "duration": 12100
             }
           }
         ],
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 38000
+              "duration": 37300
             }
           },
           {
@@ -88,7 +88,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 185549300
+              "duration": 139383200
             }
           }
         ]
