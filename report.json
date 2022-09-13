@@ -1,0 +1,98 @@
+[
+  {
+    "id": "valida-cadastro-na-plataforma-bugbank",
+    "uri": "features/signup.feature",
+    "keyword": "Funcionalidade",
+    "name": "Valida Cadastro na plataforma Bugbank",
+    "description": "",
+    "line": 3,
+    "elements": [
+      {
+        "id": "valida-cadastro-na-plataforma-bugbank;realiza-cadastro-com-sucesso",
+        "keyword": "Cenário",
+        "name": "Realiza cadastro com sucesso",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acesso o site do Bugbank",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/signup_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2256187100
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "preencho todos os dados obrigatorios para cadastro",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/signup_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 850279500
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "cadastro é realizado com sucesso",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/signup_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 201302700
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.37.1/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37300
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.37.1/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13200
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.37.1/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 185549300
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
